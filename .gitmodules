@@ -1,0 +1,24 @@
+[submodule "cltl-requirements"]
+	path = cltl-requirements
+	url = https://github.com/leolani/cltl-requirements.git
+[submodule "cltl-combot"]
+	path = cltl-combot
+	url = https://github.com/leolani/cltl-combot.git
+[submodule "cltl-backend"]
+	path = cltl-backend
+	url = https://github.com/leolani/cltl-backend.git
+[submodule "cltl-eliza"]
+	path = cltl-eliza
+	url = https://github.com/leolani/cltl-eliza.git
+[submodule "cltl-eliza-app"]
+	path = cltl-eliza-app
+	url = https://github.com/leolani/cltl-eliza-app.git
+[submodule "cltl-asr"]
+	path = cltl-asr
+	url = https://github.com/leolani/cltl-asr.git
+[submodule "cltl-vad"]
+	path = cltl-vad
+	url = https://github.com/leolani/cltl-vad.git
+[submodule "cltl-chat-ui"]
+	path = cltl-chat-ui
+	url = https://github.com/leolani/cltl-chat-ui.git
