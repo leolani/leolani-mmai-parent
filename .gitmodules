@@ -22,3 +22,6 @@
 [submodule "cltl-chat-ui"]
 	path = cltl-chat-ui
 	url = https://github.com/leolani/cltl-chat-ui.git
+[submodule "util"]
+	path = util
+	url = https://github.com/leolani/cltl-build.git
