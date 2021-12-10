@@ -25,3 +25,6 @@
 [submodule "util"]
 	path = util
 	url = https://github.com/leolani/cltl-build.git
+[submodule "cltl-backend-naoqi"]
+	path = cltl-backend-naoqi
+	url = https://github.com/leolani/cltl-backend-naoqi.git
