@@ -3,6 +3,7 @@ SHELL = /bin/bash
 project_name ?= "cltl-eliza"
 
 project_components = $(addprefix ${project_root}/, \
+		emissor \
 		cltl-requirements \
 		cltl-combot \
 		cltl-backend \

@@ -28,3 +28,6 @@
 [submodule "cltl-backend-naoqi"]
 	path = cltl-backend-naoqi
 	url = https://github.com/leolani/cltl-backend-naoqi.git
+[submodule "emissor"]
+	path = emissor
+	url = https://github.com/leolani/emissor.git
