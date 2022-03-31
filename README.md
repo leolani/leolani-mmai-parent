@@ -1,17 +1,17 @@
-# eliza-parent
+# leolani-mmai-parent
 
-Parent repository for the Eliza App.
+Parent repository for the Leolani App.
 
-This repository contains all components of the Eliza app as _git_ submodules and can be used as the
+This repository contains all components of the Leolani app as _git_ submodules and can be used as the
 root to execute [build commands](https://github.com/leolani/cltl-build/tree/main/make) that are run on the components.
 
-For a description of the Eliza App see to the [README](https://github.com/leolani/cltl-eliza-app) there.
+For a description of the Leolani App see to the [README](https://github.com/leolani/cltl-leolani-app) there.
 
 ## Check-out
 
-To check out all code needed for the Eliza App, clone this repository including all submodules:
+To check out all code needed for the Leolani App, clone this repository including all submodules:
 
-        git clone --recurse-submodules -j8 https://github.com/leolani/eliza-parent.git
+        git clone --recurse-submodules -j8 https://github.com/leolani/leolani-mmai-parent.git
 
 
 ## Run the application
@@ -20,10 +20,10 @@ Checkout the repository as described in [Check-out](#check-out). Then go to the
 repository root, build the project, activate the virtual environment for the
 Python application and run it. Altogether:
 
-        git clone --recurse-submodules -j8 https://github.com/leolani/eliza-parent.git
-        cd eliza-parent
+        git clone --recurse-submodules -j8 https://github.com/leolani/leolani-mmai-parent.git
+        cd leolani-mmai-parent
         make build
-        cd cltl-eliza-app
+        cd cltl-leolani-app
         source venv/bin/active
         cd py-app
         python app.py

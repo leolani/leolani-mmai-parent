@@ -14,10 +14,6 @@
 	path = cltl-eliza
 	url = https://github.com/leolani/cltl-eliza.git
 	branch = main
-[submodule "cltl-eliza-app"]
-	path = cltl-eliza-app
-	url = https://github.com/leolani/cltl-eliza-app.git
-	branch = main
 [submodule "cltl-asr"]
 	path = cltl-asr
 	url = https://github.com/leolani/cltl-asr.git
