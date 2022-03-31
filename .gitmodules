@@ -38,3 +38,7 @@
 	path = emissor
 	url = https://github.com/leolani/emissor.git
 	branch = main
+[submodule "cltl-leolani-app"]
+	path = cltl-leolani-app
+	url = https://github.com/leolani/cltl-leolani-app.git
+	branch = main
