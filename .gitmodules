@@ -42,3 +42,11 @@
 	path = cltl-leolani-app
 	url = https://github.com/leolani/cltl-leolani-app.git
 	branch = main
+[submodule "cltl-leolani"]
+	path = cltl-leolani
+	url = https://github.com/leolani/cltl-leolani.git
+	branch = main
+[submodule "cltl-emissor-data"]
+	path = cltl-emissor-data
+	url = https://github.com/leolani/cltl-emissor-data.git
+	branch = main
