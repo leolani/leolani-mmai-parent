@@ -50,3 +50,15 @@
 	path = cltl-emissor-data
 	url = https://github.com/leolani/cltl-emissor-data.git
 	branch = main
+[submodule "cltl-knowledgeextraction"]
+	path = cltl-knowledgeextraction
+	url = https://github.com/leolani/cltl-knowledgeextraction.git
+	branch = main
+[submodule "cltl-knowledgerepresentation"]
+	path = cltl-knowledgerepresentation
+	url = https://github.com/leolani/cltl-knowledgerepresentation.git
+	branch = main
+[submodule "cltl-languagegeneration"]
+	path = cltl-languagegeneration
+	url = https://github.com/leolani/cltl-languagegeneration.git
+	branch = main

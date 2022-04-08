@@ -10,6 +10,9 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-leolani-app \
 		cltl-leolani \
 		cltl-emissor-data \
+		cltl-knowledgerepresentation \
+		cltl-knowledgeextraction \
+		cltl-languagegeneration \
 		cltl-eliza \
 		cltl-chat-ui \
 		cltl-vad \
