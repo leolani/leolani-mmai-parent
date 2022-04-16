@@ -15,8 +15,10 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-languagegeneration \
 		cltl-eliza \
 		cltl-chat-ui \
+		cltl-face-recognition \
+		cltl-object-recognition \
 		cltl-vad \
-                cltl-asr)
+		cltl-asr)
 
 git_local ?= ..
 git_remote ?= https://github.com/leolani

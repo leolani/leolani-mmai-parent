@@ -13,6 +13,13 @@ To check out all code needed for the Leolani App, clone this repository includin
 
         git clone --recurse-submodules -j8 https://github.com/leolani/leolani-mmai-parent.git
 
+Checkout the current state of the parent
+
+        git checkout --recurse-submodules
+
+Update to the current branch heads of the submodules:
+
+        git submodule update --remote
 
 ## Run the application
 
