@@ -52,13 +52,13 @@
 	branch = main
 [submodule "cltl-knowledgeextraction"]
 	path = cltl-knowledgeextraction
-	url = https://github.com/leolani/cltl-knowledgeextraction.git
+	url = https://github.com/leolani/cltl-knowledgeextraction.git@integration
 	branch = integration
 [submodule "cltl-knowledgerepresentation"]
 	path = cltl-knowledgerepresentation
-	url = https://github.com/leolani/cltl-knowledgerepresentation.git
+	url = https://github.com/leolani/cltl-knowledgerepresentation.git@integration
 	branch = integration
 [submodule "cltl-languagegeneration"]
 	path = cltl-languagegeneration
-	url = https://github.com/leolani/cltl-languagegeneration.git
+	url = https://github.com/leolani/cltl-languagegeneration.git@integration
 	branch = integration
