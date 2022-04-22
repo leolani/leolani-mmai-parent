@@ -62,3 +62,11 @@
 	path = cltl-languagegeneration
 	url = https://github.com/leolani/cltl-languagegeneration.git@integration
 	branch = integration
+[submodule "cltl-object-recognition"]
+	path = cltl-object-recognition
+	url = https://github.com/leolani/cltl-object-recognition.git
+	branch = main
+[submodule "cltl-face-recognition"]
+	path = cltl-face-recognition
+	url = https://github.com/leolani/cltl-face-recognition.git
+	branch = main
