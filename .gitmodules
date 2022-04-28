@@ -70,3 +70,7 @@
 	path = cltl-face-recognition
 	url = https://github.com/leolani/cltl-face-recognition.git
 	branch = main
+[submodule "cltl-knowledgelinking"]
+	path = cltl-knowledgelinking
+	url = https://github.com/leolani/cltl-knowledgelinking
+	branch = main
