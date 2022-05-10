@@ -74,3 +74,7 @@
 	path = cltl-knowledgelinking
 	url = https://github.com/leolani/cltl-knowledgelinking
 	branch = main
+[submodule "cltl-mention-detection"]
+	path = cltl-mention-detection
+	url = https://github.com/leolani/cltl-mention-detection.git
+	branch = main
