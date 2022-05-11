@@ -30,7 +30,7 @@ activate the virtual environment for the Python application and run it. Altogeth
         cd leolani-mmai-parent
         make build
         cd cltl-leolani-app
-        source venv/bin/active
+        source venv/bin/activate
         cd py-app
         python app-leo.py
 
