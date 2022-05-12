@@ -21,6 +21,14 @@ Update to the current branch heads of the submodules:
 
         git submodule update --remote
 
+To pull the latest changes, you can run:
+
+        git pull --recurse-submodules
+
+To push some submodule changes, go to the submodule folder and push like:
+
+        git push origin HEAD:main
+
 ## Run the application
 
 Checkout the repository as described in [Check-out](#check-out). Then go to the repository root, build the project,
@@ -30,13 +38,14 @@ activate the virtual environment for the Python application and run it. Altogeth
         cd leolani-mmai-parent
         make build
         cd cltl-leolani-app
-        source venv/bin/active
+        source venv/bin/activate
         cd py-app
         python app-leo.py
 
 NOTES:
 
 - Remember to launch GraphDB and have a repository called 'sandbox'
+- Remember to launch Docker before running
 - Remember to use the virtual environment (created by the `make build`command) located at `cltl-leolani-app/venv`
 - You will need to make a folder as such
 
@@ -60,12 +69,12 @@ cd ../cltl-languagegeneration
 git checkout integration
 ```
 
-- Git submodules: Usually if running the `make build` command fails and complains about missing makefiles the git
+- Git submodules: Usually, if running the `make build` command fails and complains about missing makefiles the git
   submodule checkout didn’t work properly. You will need to go to the specific submodule and run the checkout in that
   folder. For example, the error:
 
 ``` bash
-util/make/makefile.parent.mk:57: /Users/selbaez/Documents/PhD/leolani/leolani-mmai-parent/cltl-face-recognition/makefile.d: No such file or directory
+util/make/makefile.parent.mk:57: /YOUR_PATH/leolani-mmai-parent/cltl-face-recognition/makefile.d: No such file or directory
 ```
 
 Would need to got to the `face-recognition` module and run:
@@ -76,6 +85,10 @@ git submodule update --init --recursive
 ```
 
 - Make build: Sometimes, you will need to run `make build` twice, as some errors get fixed only through the first run
+
+
+- Docker already running: Sometimes when you kill (not stop) an application, the docker images will not close correctly.
+  You might need to stop them manually.
 
 ## Development
 

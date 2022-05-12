@@ -12,6 +12,7 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-emissor-data \
 		cltl-knowledgerepresentation \
 		cltl-knowledgeextraction \
+		cltl-knowledgelinking \
 		cltl-languagegeneration \
 		cltl-eliza \
 		cltl-chat-ui \
