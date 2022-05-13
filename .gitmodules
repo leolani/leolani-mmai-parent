@@ -53,15 +53,15 @@
 [submodule "cltl-knowledgeextraction"]
 	path = cltl-knowledgeextraction
 	url = https://github.com/leolani/cltl-knowledgeextraction.git
-	branch = integration
+	branch = main
 [submodule "cltl-knowledgerepresentation"]
 	path = cltl-knowledgerepresentation
 	url = https://github.com/leolani/cltl-knowledgerepresentation.git
-	branch = integration
+	branch = main
 [submodule "cltl-languagegeneration"]
 	path = cltl-languagegeneration
 	url = https://github.com/leolani/cltl-languagegeneration.git
-	branch = integration
+	branch = main
 [submodule "cltl-object-recognition"]
 	path = cltl-object-recognition
 	url = https://github.com/leolani/cltl-object-recognition.git
