@@ -78,3 +78,7 @@
 	path = cltl-mention-detection
 	url = https://github.com/leolani/cltl-mention-detection.git
 	branch = main
+[submodule "cltl-g2ky"]
+	path = cltl-g2ky
+	url = https://github.com/leolani/cltl-g2ky.git
+	branch = main
