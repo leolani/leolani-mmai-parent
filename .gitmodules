@@ -57,7 +57,7 @@
 [submodule "cltl-knowledgerepresentation"]
 	path = cltl-knowledgerepresentation
 	url = https://github.com/leolani/cltl-knowledgerepresentation.git
-	branch = 11-separate-detections-from-triples
+	branch = main
 [submodule "cltl-languagegeneration"]
 	path = cltl-languagegeneration
 	url = https://github.com/leolani/cltl-languagegeneration.git
