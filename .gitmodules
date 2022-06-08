@@ -88,3 +88,6 @@
 [submodule "cltl-visualresponder"]
 	path = cltl-visualresponder
 	url = https://github.com/leolani/cltl-visualresponder.git
+[submodule "cltl-questionprocessor"]
+	path = cltl-questionprocessor
+	url = https://github.com/leolani/cltl-questionprocessor.git
