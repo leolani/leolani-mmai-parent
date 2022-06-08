@@ -82,3 +82,6 @@
 	path = cltl-g2ky
 	url = https://github.com/leolani/cltl-g2ky.git
 	branch = main
+[submodule "cltl-about-agent"]
+	path = cltl-about-agent
+	url = https://github.com/leolani/cltl-about-agent.git
