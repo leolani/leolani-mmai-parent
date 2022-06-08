@@ -85,3 +85,6 @@
 [submodule "cltl-about-agent"]
 	path = cltl-about-agent
 	url = https://github.com/leolani/cltl-about-agent.git
+[submodule "cltl-visualresponder"]
+	path = cltl-visualresponder
+	url = https://github.com/leolani/cltl-visualresponder.git

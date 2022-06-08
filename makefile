@@ -16,6 +16,7 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-languagegeneration \
 		cltl-mention-detection \
 		cltl-g2ky \
+		cltl-visualresponder \
 		cltl-about-agent \
 		cltl-eliza \
 		cltl-chat-ui \
