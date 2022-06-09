@@ -60,9 +60,8 @@ NOTES:
 ## Troubleshooting
 
 - Bad initialization of Git Submodules: Usually, if running the `make build` command fails and complains about missing
-  makefiles the git
-  submodule checkout didn’t work properly. You will need to go to the specific submodule and run the checkout in that
-  folder. For example, the error:
+  makefiles the git submodule checkout didn’t work properly. You will need to go to the specific submodule and run the
+  checkout in that folder. For example, the error:
 
   ``` bash
   error: util/make/makefile.parent.mk:57: /YOUR_PATH/leolani-mmai-parent/cltl-face-recognition/makefile.d: No such file or directory
@@ -104,7 +103,21 @@ NOTES:
   pip cache purge
   ```
 
+- Direct fetching of a commit in a submodule fails: Sometimes the submodules are unable to pull the latest changes as it
+  cannot find a specific commit. Therror looks like this:
+
+  ```bash
+  Fetched in submodule path 'cltl-about-agent', but it did not contain 017668c1d9dbb36c858fa803fd6285e1236c7d38. Direct fetching of that commit failed.
+  ```
+
+  For this you can force the initialization of the submodules as follows:
+
+  ```bash
+  git submodule update --force --recursive --init --remote
+  ```
+
 - Make build: Sometimes, you will need to run `make build` twice, as some errors get fixed only through the first run.
+  Some other times you need to first run `make clean` and then `make build`.
 
 - Docker already running: Sometimes when you kill (not stop) an application, the docker images will not close correctly.
   You might need to stop them manually.
