@@ -42,7 +42,7 @@ activate the virtual environment for the Python application and run it. Altogeth
         cd py-app
         python app-leo.py
 
-You can then go to: [http://0.0.0.0:8000/chatui/static/chat.html]() to chat.
+You can then go to the interface [here](http://0.0.0.0:8000/chatui/static/chat.html) to chat.
 
 NOTES:
 
