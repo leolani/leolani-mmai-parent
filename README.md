@@ -50,12 +50,6 @@ NOTES:
 - Remember to launch GraphDB and have a repository called 'sandbox'
 - Remember to launch Docker before running
 - Remember to use the virtual environment (created by the `make build`command) located at `cltl-leolani-app/venv`
-- You will need to make a folder as such
-
-  ```bash
-  mkdir cltl-leolani-app/py-app/data/ 
-  mkdir cltl-leolani-app/py-app/data/scenarios
-  ```
 
 ## Troubleshooting
 
