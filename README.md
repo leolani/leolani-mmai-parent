@@ -51,6 +51,13 @@ NOTES:
 - Remember to launch Docker before running
 - Remember to use the virtual environment (created by the `make build`command) located at `cltl-leolani-app/venv`
 
+### Run in the robot
+
+Please go to `cltl-leolani-app/py-app/config/default.config` and change 
+
+* the `server_image_url` and `server_audio_url` fields under `[cltl.backend]`
+* the `remote_url` field under `[cltl.backend.text_output]`
+
 ## Troubleshooting
 
 - Bad initialization of Git Submodules: Usually, if running the `make build` command fails and complains about missing
