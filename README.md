@@ -42,7 +42,8 @@ activate the virtual environment for the Python application and run it. Altogeth
         cd py-app
         python app-leo.py
 
-You can then go to the interface [here](http://0.0.0.0:8000/chatui/static/chat.html) to chat.
+You can then go to the chat interface [here](http://0.0.0.0:8000/chatui/static/chat.html) to type and see what the
+system hears. You can also see what the systems sees [here](http://0.0.0.0:8000/monitoring/static/monitoring.html).
 
 NOTES:
 
@@ -53,7 +54,7 @@ NOTES:
 
 ### Run in the robot
 
-Please go to `cltl-leolani-app/py-app/config/default.config` and change 
+Please go to `cltl-leolani-app/py-app/config/default.config` and change
 
 * the `server_image_url` and `server_audio_url` fields under `[cltl.backend]`
 * the `remote_url` field under `[cltl.backend.text_output]`
