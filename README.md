@@ -58,6 +58,8 @@ Please go to `cltl-leolani-app/py-app/config/default.config` and change
 
 * the `server_image_url` and `server_audio_url` fields under `[cltl.backend]`
 * the `remote_url` field under `[cltl.backend.text_output]`
+* Get wireless internet on your laptop (eg, eduroam), and connect with a wire to the PepperLinkSyss modem
+* Get your ip as such `ipconfig getifaddr en7` (eg, 192.168.1.192)
 
 ## Troubleshooting
 
