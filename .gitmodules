@@ -94,3 +94,7 @@
 	path = cltl-questionprocessor
 	url = https://github.com/leolani/cltl-questionprocessor.git
 	branch = main
+[submodule "cltl-emotionrecognition"]
+	path = cltl-emotionrecognition
+	url = https://github.com/leolani/cltl-emotionrecognition.git
+	branch = main
