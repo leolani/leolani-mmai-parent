@@ -48,5 +48,9 @@ FROM base as leolani
 
 COPY --from=build /leolani/cltl-leolani-app /leolani/cltl-leolani-app/
 
+WORKDIR /leolani/cltl-leolani-app
+
+RUN rm spacy.lock nltk.lock; make spacy.lock nltk.lock
+
 WORKDIR /leolani/cltl-leolani-app/py-app
 CMD source /leolani/cltl-leolani-app/venv/bin/activate && python app.py
