@@ -98,3 +98,7 @@
 	path = cltl-emotionrecognition
 	url = https://github.com/leolani/cltl-emotionrecognition.git
 	branch = main
+[submodule "cltl-dialogueclassification"]
+	path = cltl-dialogueclassification
+	url = https://github.com/leolani/cltl-dialogueclassification.git
+	branch = main
