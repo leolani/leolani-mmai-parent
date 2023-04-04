@@ -47,10 +47,11 @@ RUN make build
 FROM base as leolani
 
 COPY --from=build /leolani/cltl-leolani-app /leolani/cltl-leolani-app/
+COPY --from=build ~/nltk_data ~/nltk_data
 
 WORKDIR /leolani/cltl-leolani-app
 
-RUN rm spacy.lock nltk.lock; make spacy.lock nltk.lock
+RUN rm spacy.lock; make spacy.lock project-dependencies=""
 
 WORKDIR /leolani/cltl-leolani-app/py-app
 CMD source /leolani/cltl-leolani-app/venv/bin/activate && python app.py
