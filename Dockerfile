@@ -24,8 +24,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ffmpeg \
         libsm6 \
         libxext6 \
-        openjdk-11-jre-headless \
+        default-jre \
     && apt-get clean
+
+# Get Rust; NOTE: using sh for better compatibility with other base images
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+
+# Add .cargo/bin to PATH
+ENV PATH="/root/.cargo/bin:${PATH}"
 
 
 FROM base as build
