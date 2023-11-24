@@ -40,7 +40,7 @@ activate the virtual environment for the Python application and run it. Altogeth
         cd cltl-leolani-app
         source venv/bin/activate
         cd py-app
-        python app-leo.py
+        python app.py
 
 You can then go to the chat interface [here](http://0.0.0.0:8000/chatui/static/chat.html) to type and see what the
 system hears. You can also see what the systems sees [here](http://0.0.0.0:8000/monitoring/static/monitoring.html).
