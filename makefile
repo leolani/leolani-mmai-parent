@@ -17,6 +17,7 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-mention-detection \
 		cltl-emotionrecognition \
 		cltl-dialogueclassification \
+		cltl-g2kmore \
 		cltl-g2ky \
 		cltl-questionprocessor \
 		cltl-visualresponder \

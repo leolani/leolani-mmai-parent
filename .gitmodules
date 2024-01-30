@@ -102,3 +102,6 @@
 	path = cltl-dialogueclassification
 	url = https://github.com/leolani/cltl-dialogueclassification.git
 	branch = main
+[submodule "cltl-g2kmore"]
+	path = cltl-g2kmore
+	url = https://github.com/leolani/cltl-g2kmore.git
