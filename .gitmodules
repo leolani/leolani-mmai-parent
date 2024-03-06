@@ -105,3 +105,7 @@
 [submodule "cltl-g2kmore"]
 	path = cltl-g2kmore
 	url = https://github.com/leolani/cltl-g2kmore.git
+[submodule "cltl-support"]
+	path = cltl-support
+	url = https://github.com/leolani/cltl-support.git
+	branch = main
